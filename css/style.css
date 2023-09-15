@@ -163,3 +163,9 @@ p {
         width: 300px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .pastrypic {
+        width: 300px;
+    }
+}
