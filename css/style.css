@@ -141,20 +141,14 @@ p {
 }
 
 @media screen and (min-width: 800px) {
-
-    .pastrypic {
-        margin-top: 20px;
-        width: 300px;
+    .container {
+        margin-top: 10px;
     }
 }
 
 @media screen and (min-width: 577px) {
     body {
         font-size: 18px;
-    }
-
-    .container {
-        margin-top: 10px;
     }
 
     .horizon {
