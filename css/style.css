@@ -66,7 +66,6 @@ p {
 
 .box + .box {
     margin-top: 0;
-    /* Reset top margin */
 }
 
 .header, .footer {
@@ -125,6 +124,12 @@ p {
     margin-bottom: 5px;
 }
 
+.pastrypic {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
 
 @media screen and (max-width: 800px) {
     .box {
@@ -132,16 +137,35 @@ p {
         border-right: none;
         margin: 10px 0;
     }
+
 }
 
 @media screen and (min-width: 800px) {
-    .container {
-        margin-top: 10px;
+
+    .pastrypic {
+        margin-top: 20px;
+        width: 300px;
     }
 }
 
 @media screen and (min-width: 577px) {
     body {
         font-size: 18px;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    .horizon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .pastrypic {
+        margin-top: 20px;
+        width: 300px;
     }
 }
